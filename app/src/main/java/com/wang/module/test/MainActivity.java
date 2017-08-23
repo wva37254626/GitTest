@@ -117,7 +117,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.replace(R.id.right_layout,fragment);
         transaction.commit();
-        Log.d(TAG,"haha");
     }
 
     public void insertApi(){
