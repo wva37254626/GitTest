@@ -127,6 +127,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         values.put("phone", "15999");
         long id = db.insert("person", null, values);   //返回的是插入行对应的id
         values.clear();
+        Log.d(TAG, "什么鬼");
     }
 
     public void deleteApi(){
