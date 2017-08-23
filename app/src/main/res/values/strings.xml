@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This is right fragment</string>
+    <string name="hello_blank_fragment2">This is right fragment2</string>
+    <string name="helloword">Hello World!</string>
+</resources>

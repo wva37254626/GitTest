@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wang.module.test.activity.OneActivity">
+    <Button
+        android:id="@+id/bt_next1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="one跳转"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/bt_refreshUI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击刷新界面"
+        />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="看我三十二变"
+        />
+
+    <Button
+        android:id="@+id/bt_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网络get请求"/>
+
+    <Button
+        android:id="@+id/bt_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网络post请求"/>
+
+    <Button
+        android:id="@+id/bt_pull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pull解析"
+        />
+</LinearLayout>
